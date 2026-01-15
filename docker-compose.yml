@@ -1,0 +1,24 @@
+services:
+  # Local development - builds from Dockerfile
+  as-help-local:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: as-help-mcp-server-local
+    restart: unless-stopped
+    
+    # Environment configuration
+    environment:
+
+    # Volume mounts
+    volumes:
+      # Single volume stores DBs for all AS versions
+      - ashelp-data:/data/db
+    
+    stdin_open: true
+    tty: true
+
+volumes:
+  # Single volume holds all AS version databases
+  ashelp-data:
+    driver: local
