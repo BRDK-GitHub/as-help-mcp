@@ -17,6 +17,9 @@ MCP server for B&R Automation Studio help documentation search. Provides full-te
 - Docker Desktop installed and running
 - VS Code with GitHub Copilot extension
 
+## Demo
+https://github.com/user-attachments/assets/b4df6bc7-ed7c-471f-93b8-db84b0110ac3
+
 ## Quick Start (VS Code)
 
 Add to `.vscode/mcp.json` in your workspace:
