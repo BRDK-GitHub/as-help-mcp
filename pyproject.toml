@@ -1,6 +1,6 @@
 [project]
 name = "as-help-server"
-version = "1.0.0"
+version = "2.0.1"
 description = "MCP server for B&R Automation Studio help documentation search"
 readme = "README.md"
 authors = [
