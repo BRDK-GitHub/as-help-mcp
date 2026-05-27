@@ -1,8 +1,8 @@
-[!WARNING]
-**DEPRECATED:** This repository is no longer maintained.
-The MCP server has been rewritten in Rust and moved to **[br-automation-community/as-help-mcp](https://github.com/br-automation-community/as-help-mcp)**.
-Please use that repository for all new development, issues, and releases.
-This code remains available for reference only.
+> [!WARNING]
+> **DEPRECATED:** This repository is no longer maintained.
+> The MCP server has been rewritten in Rust and moved to **[br-automation-community/as-help-mcp](https://github.com/br-automation-community/as-help-mcp)**.
+> Please use that repository for all new development, issues, and releases.
+> This code remains available for reference only.
 
 # AS Help MCP Server
 
